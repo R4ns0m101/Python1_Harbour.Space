@@ -49,3 +49,15 @@ foundedYearUtccAdmssionDepartment = 1980
 
 #Pascal case
 FoundedYearUtccAdmssionDepartment = 1980
+
+#print
+#use \ to link line 1 with line 2
+print(""" fasjofpasfjsajfjsdafjsfjsfjeadjfo'e;jaopsdjfejafopsdjfeiasjdfjpeapfdka[pfjepadfoeapfjs \
+feapfkdsoafkepojajfposjepoasd[pfkpe[pakfoeafjopaejfopafpe]]]
+""")
+#example case in if
+kkkkkkkkkkkkkkkkkkk_score = 100
+if kkkkkkkkkkkkkkkkkkk_score \
+< kkkkkkkkkkkkkkkkkkk_score +1:
+    print(kkkkkkkkkkkkkkkkkkk_score)
+
