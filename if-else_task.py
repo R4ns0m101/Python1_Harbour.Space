@@ -1,4 +1,4 @@
-x = int(input())
+x = int(float(input()))
 
 if x % 2 == 0:
     if x % 3 != 0:
