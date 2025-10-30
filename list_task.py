@@ -8,9 +8,9 @@ my_list = []
 for index in range(1,101):
     my_list.append(index)
 
-for index in range(1,101):
+for index in my_list:
     if index % 2 == 1:
-        if index % 3 ==0:
+        if index % 3 == 0:
             my_list.remove(index)
         else:
             continue
@@ -18,3 +18,5 @@ for index in range(1,101):
         continue
 print("Final list is", my_list)
 print("Final list has", len(my_list), "elements")
+
+# can use numbers = list(range(1,100))
