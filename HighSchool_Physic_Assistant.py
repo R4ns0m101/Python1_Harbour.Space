@@ -72,7 +72,7 @@ def basic_motion() -> None:
         print("====== Calculating ======")
         print(f"Time = {time:.2f} s")
     else:
-        print("Invalid input please choose it again")
+        print("Invalid input Try again!!!")
 
 
 def equations_of_motion() -> None:
@@ -183,7 +183,9 @@ def equations_of_motion() -> None:
         print("====== Calculating ======")
         print("from formula v² = u² + 2as")
         print(f"Distance = {distance:.2f} m")
-
+    
+    else:
+        print("Invalid input Try again!!!")
 
 
 
@@ -240,6 +242,9 @@ def free_fall() -> None:
         print("====== Calculating ======")
         print("from formula h = 0.5gt²")
         print(f"Time = {time:.2f} s")
+
+    else:
+        print("Invalid input Try again!!!")
 
 
 def projectile_motion() -> None:
@@ -352,6 +357,9 @@ def projectile_motion() -> None:
                 ((target_range * GRAVITY_FORCE) / math.sin(2 * angle_radian)))
             print("====== Calculating ======")
             print(f"Initial velocity = {initial_velocity:.2f} m/s")
+        
+        else:
+            print("Invalid input Try again!!!")
 
 
 def newton_law() -> None:
@@ -498,7 +506,8 @@ def friction_force_topic() -> None:
         print("====== Calculating ======")
         print("From formula f = μN")
         print(f"Coeficient of friction μ = {coeficient_force}")
-
+    else:
+        print("Invalid input Try again!!!")
 
 def main() -> None:
     while True:
@@ -521,7 +530,7 @@ def main() -> None:
             elif choice_content == 4:
                 projectile_motion()
             else:
-                pass
+                print("Invalid choice Try again!!!")
 
         elif choice_topic == 2:
             print("Choose the content")
@@ -535,7 +544,7 @@ def main() -> None:
             elif choice_content == 3:
                 friction_force_topic()
             else:
-                pass
+                print("Invalid choice Try again!!!")
 
         elif choice_topic == 0:
             thank_you = """       
